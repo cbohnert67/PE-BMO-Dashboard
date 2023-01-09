@@ -112,7 +112,7 @@ fig = px.line(
     y='Projets de recrutement totaux',
     hover_data=['Projets de recrutement totaux'],
     markers=False,
-    template="plotly_dark"
+    template="simple_white"
    )
 
 y_result = chart_data.loc[chart_data['Année']==year_to_filter]['Projets de recrutement totaux'].values
@@ -151,7 +151,7 @@ fig = px.line(
     y='Projets de recrutement difficiles',
     hover_data=['Projets de recrutement difficiles'],
     markers=False,
-    template="plotly_dark"
+    template="simple_white"
    )
 
 y_result = chart_data.loc[chart_data['Année']==year_to_filter]['Projets de recrutement difficiles'].values
@@ -188,7 +188,7 @@ fig = px.line(
     y='Projets de recrutement saisonniers',
     hover_data=['Projets de recrutement saisonniers'],
     markers=False,
-    template="plotly_dark"
+    template="simple_white"
    )
 
 

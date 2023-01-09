@@ -133,8 +133,7 @@ fig.add_trace(
                 size=16,
         ),
         showlegend=False,
-        name="Année sélectionnée",
-        template="plotly_dark"
+        name="Année sélectionnée"
     )
 )
 
@@ -173,8 +172,7 @@ fig.add_trace(
                 size=16,
         ),
         showlegend=False,
-        name="Année sélectionnée",
-        template="plotly_dark"
+        name="Année sélectionnée"
     )
 )
 
@@ -212,8 +210,7 @@ fig.add_trace(
                 size=16,
         ),
         showlegend=False,
-        name="Année sélectionnée",
-        template="plotly_dark"
+        name="Année sélectionnée"
     )
 )
 

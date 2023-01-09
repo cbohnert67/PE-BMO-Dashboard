@@ -127,7 +127,7 @@ fig.add_trace(
         y=[y_result],
         mode = 'markers',
         marker=dict(
-                symbol="arrow",
+                symbol="cross-thin",
                 color="royalblue",
                 size=16,
         ),

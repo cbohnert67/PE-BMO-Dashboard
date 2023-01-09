@@ -126,8 +126,9 @@ fig.add_trace(
         x=[year_to_filter],
         y=[y_result],
         mode = 'markers',
-        marker_symbol = 'star',
+        marker_symbol = 'cross-thin',
         marker_size = 15,
+        marker_color = 'red',
         name="Année sélectionnée"
     )
 )
@@ -160,8 +161,9 @@ fig.add_trace(
         x=[year_to_filter],
         y=[y_result],
         mode = 'markers',
-        marker_symbol = 'star',
+        marker_symbol = 'cross-thin',
         marker_size = 15,
+        marker_color = 'red',
         name="Année sélectionnée"
     )
 )
@@ -193,8 +195,9 @@ fig.add_trace(
         x=[year_to_filter],
         y=[y_result],
         mode = 'markers',
-        marker_symbol = 'star',
+        marker_symbol = 'cross-thin',
         marker_size = 15,
+        marker_color = 'red',
         name="Année sélectionnée"
     )
 )

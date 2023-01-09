@@ -131,6 +131,7 @@ fig.add_trace(
                 color="royalblue",
                 size=16,
         ),
+        showlegend=False,
         name="Année sélectionnée"
     )
 )
@@ -168,6 +169,7 @@ fig.add_trace(
                 color="royalblue",
                 size=16,
         ),
+        showlegend=False,
         name="Année sélectionnée"
     )
 )
@@ -204,6 +206,7 @@ fig.add_trace(
                 color="royalblue",
                 size=16,
         ),
+        showlegend=False,
         name="Année sélectionnée"
     )
 )

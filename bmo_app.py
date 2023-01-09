@@ -39,7 +39,7 @@ job_data = filtered_data.loc[(filtered_data['Métier']==job_to_filter) & (filter
 
 with st.sidebar:
     st.caption('Données issues de Pôle Emploi')
-    st.image('pole_emploi.png')
+    st.image('pole-emploi.png')
 
 
 col1, col2 = st.columns(2)

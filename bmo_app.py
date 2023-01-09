@@ -130,7 +130,7 @@ fig.add_trace(
                 symbol="arrow",
                 color="royalblue",
                 size=16,
-        )
+        ),
         name="Année sélectionnée"
     )
 )

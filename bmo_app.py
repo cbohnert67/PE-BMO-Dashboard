@@ -111,7 +111,7 @@ fig = px.line(
     x='Année',
     y='Projets de recrutement totaux',
     hover_data=['Projets de recrutement totaux'],
-    markers=True,
+    markers=False,
     template="simple_white"
    )
 
@@ -150,7 +150,7 @@ fig = px.line(
     x='Année',
     y='Projets de recrutement difficiles',
     hover_data=['Projets de recrutement difficiles'],
-    markers=True,
+    markers=False,
     template="simple_white"
    )
 
@@ -187,7 +187,7 @@ fig = px.line(
     x='Année',
     y='Projets de recrutement saisonniers',
     hover_data=['Projets de recrutement saisonniers'],
-    markers=True,
+    markers=False,
     template="simple_white"
    )
 

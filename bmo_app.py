@@ -1,3 +1,6 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
 
 
 DATA = 'Résultat_BMO_final2.csv'

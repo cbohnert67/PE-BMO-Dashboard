@@ -126,9 +126,11 @@ fig.add_trace(
         x=[year_to_filter],
         y=[y_result],
         mode = 'markers',
-        marker_symbol = 'cross-thin',
-        marker_size = 15,
-        marker_color = 'red',
+        marker=dict(
+                symbol="arrow",
+                color="royalblue",
+                size=16,
+        )
         name="Année sélectionnée"
     )
 )

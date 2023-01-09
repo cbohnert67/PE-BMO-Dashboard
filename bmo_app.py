@@ -27,7 +27,12 @@ with st.sidebar:
     departement_to_filter =st.selectbox(
         'Choisissez un département:',
         sorted(data['Département'].unique()))
+with st.sidebar:
+    year_to_filter = st.slider('Année:', 2015, 2022, 2015)
 
+filtered_data = data.loc[data['Année'] == year_to_filter]
+
+job_data = filtered_data.loc[(filtered_data['Métier']==job_to_filter) & (filtered_data['Département']==departement_to_filter)]
 
 
 
@@ -51,12 +56,7 @@ with col2:
     st.header('Département:')
     st.caption(departement_to_filter)
 
-with st.sidebar:
-    year_to_filter = st.slider('Année:', 2015, 2022, 2015)
 
-filtered_data = data.loc[data['Année'] == year_to_filter]
-
-job_data = filtered_data.loc[(filtered_data['Métier']==job_to_filter) & (filtered_data['Département']==departement_to_filter)]
 
 classement = filtered_data.loc[filtered_data['Département']==departement_to_filter].sort_values(by='Projets de recrutement totaux', ascending=False).reset_index(drop=True)
 

@@ -37,14 +37,16 @@ filtered_data = data.loc[data['Année'] == year_to_filter]
 job_data = filtered_data.loc[(filtered_data['Métier']==job_to_filter) & (filtered_data['Département']==departement_to_filter)]
 
 
-
+with st.sidebar:
+    st.caption('Données issues de Pôle Emploi')
+    st.image('pole-emploi.png')
 
 
 col1, col2 = st.columns(2)
 with col1:
     st.title("Besoins en Main d'Oeuvre {}".format(year_to_filter))
 with col2:
-    st.image('pole_emploi.png')
+    st.image('offre-emploi.png')
 
 col1, col2 = st.columns(2)
 with col1:

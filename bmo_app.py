@@ -38,7 +38,7 @@ job_data = filtered_data.loc[(filtered_data['Métier']==job_to_filter) & (filter
 
 
 with st.sidebar:
-    st.caption('Données issues de Pôle Emploi')
+    st.caption('[Données issues de Pôle Emploi](https://www.data.gouv.fr/fr/datasets/enquete-besoins-en-main-doeuvre-bmo/)')
     st.image('pole-emploi.png')
 
 

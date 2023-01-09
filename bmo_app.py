@@ -201,7 +201,7 @@ fig.add_trace(
 
 st.plotly_chart(fig, theme="streamlit", use_container_width=True)
 
-st.subheader('Classement des métiers {} :'.format(year_to_filter))
+st.subheader('Classement des métiers les plus recherchés en {} :'.format(year_to_filter))
 
 
 for index, metier in enumerate(classement['Métier']):
